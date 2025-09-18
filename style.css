@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+.introducao{
+    background-image: url("Frame\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+
+.perfil{
+    width: 408px;
+    height: 658px;
+}
+
+.foto2{
+    width: 464px;
+    height: 650px;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
