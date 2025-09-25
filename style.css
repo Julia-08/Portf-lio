@@ -1,29 +1,175 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-.introducao{
-    background-image: url("Frame\ 9.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 90vh;
+.introducao {
+  background-image: url("Frame\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
 
-.perfil{
-    width: 408px;
-    height: 658px;
+.perfil {
+  width: 400px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  border-radius: 79px;
+  margin-right: 120px;
 }
 
-.foto2{
-    width: 464px;
-    height: 650px;
+.foto2 {
+  width: 464px;
+  height: 650px;
+  margin-top: 100px;
 }
 
-header{
-    position: fixed;
-    width: 100vw;
+header {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 201px;
+  font-size: 16px;
+  margin-left: 145px;
+  margin-top: 24px;
+}
+
+a {
+  color: #ffff;
+  text-decoration: none;
+  font-family: "Aboreto";
+}
+
+a:hover {
+  color: #f2ab9b;
+}
+
+.Desenvolvedora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2ab9b;
+  width: 357px;
+  height: 71px;
+  border-radius: 5px;
+  color: #ffff;
+  margin-top: 106px;
+}
+
+#tudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Playball";
+  color: #ffff;
+  font-size: 80px;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.informaçoes {
+  flex-direction: column;
+  padding: 21px;
+  margin-top: 250px;
+}
+
+.insta p {
+  color: #ffff;
+}
+
+.insta {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+}
+
+#segundaParte {
+  background-color: #f2cea2;
+  display: flex;
+  justify-content: center;
+  height: 100vh
+}
+
+h2 {
+  font-family: "Aboreto";
+  color: #dd8e6b;
+  display: flex;
+  margin-top: 100px;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+#segundaParte p {
+  font-family: "Adamina";
+  width: 762px;
+  height: 379px;
+  margin-top: 300px;
+  margin-right: 155px;
+  font-size: 24px;
+}
+
+#terceiraParte{
+    background-color: #F2CEA2;
+    height: 100vh
+}
+
+#terceiraParte h3{
+    color: #DD8E6B;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    padding: 133px;
+    font-size: 40px;
+    font-family: 'Aboreto';
+    font-weight: 300;
+}
+
+#ultimaParte{
+    background-color: #F2E9CE;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4{
+color: #DD8E6B;
+font-weight: 200;
+font-family: 'Aboreto';
+margin-top: 50px;
+display: flex;
+justify-content: center;
+padding: 50px;
+font-size: 40px;
+
+}
+
+.contato{
+background-color: #F2CEA2;
+width: 800px;
+height: 700px;
+border-radius: 40px;
+
+}
+
+.contatos{
+  background-color: #F2E9CE;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   width: 500px;
+   height: 400px;
+   font-size: 32px;
+   margin-left: 150px;
+
 }
